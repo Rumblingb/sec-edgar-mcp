@@ -1,0 +1,11 @@
+startCommand:
+  type: stdio
+  commandFunction:
+    |-
+    (config) => ({command: 'python3', args: ['sec_mcp.py']})
+
+displayName: "SEC EDGAR MCP"
+description: "Financial data for AI agents. Income statements, balance sheets, cash flow, ratios for 10,000+ US public companies."
+categories:
+  - "Finance"
+  - "Research"
